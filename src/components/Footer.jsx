@@ -2,8 +2,8 @@ import React from "react";
 import logoImg from "/src/assets/logoImg.png";
 function Footer() {
   return (
-    <footer className="bg-[#fcf8f3] text-gray-800 py-10 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-4">
+    <footer className="bg-[#fcf8f3] text-gray-800 py-10 px-10">
+      <div className="max-w-7xl mb-8 mx-auto grid grid-cols-1 md:grid-cols-6 gap-2">
         {/* Logo & Description */}
         <div className="md:col-span-2">
           <div className="flex items-center space-x-2">
@@ -80,10 +80,10 @@ function Footer() {
           </p>
         </div>
       </div>
-
+      <hr />
       {/* Footer Bottom Text */}
       <div className="mt-8 text-center text-sm text-gray-500">
-        BookStore All Right Reserved, 2022
+        BookStore All Right Reserved, 2025
       </div>
     </footer>
   );
