@@ -4,6 +4,8 @@ import instructor2 from "/src/assets/instructorImages/instructor2.png";
 import instructor3 from "/src/assets/instructorImages/instructor3.png";
 import instaIcon from "/src/assets/socialIcons/instagramIcon.png";
 import linkedInIcon from "/src/assets/socialIcons/linkedInIcon.png";
+import planet from "/src/assets/backgroundImages/planet.png";
+import arrow from "/src/assets/backgroundImages/arrow2.png";
 function InstructorsSection() {
   let instructorCards = [
     {
@@ -37,11 +39,11 @@ function InstructorsSection() {
   return (
     <section id="service" className="my-10 relative">
       <img
-        src="./src/assets/backgroundImages/arrow2.png"
+        src={arrow}
         className="h-16 sm:h-20 absolute top-0 left-4 sm:left-10"
       />
       <img
-        src="./src/assets/backgroundImages/planet.png"
+        src={planet}
         className="h-10 sm:h-14 absolute top-0 right-4 sm:right-10 "
       />
       <div className="text-center">

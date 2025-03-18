@@ -3,6 +3,8 @@ import ratingStars from "/src/assets/containerImages/ratingStars.png";
 import trackImage1 from "/src/assets/trackImg1.png";
 import trackImage2 from "/src/assets/trackImg2.png";
 import trackImage3 from "/src/assets/trackImg3.png";
+import bulb from "/src/assets/backgroundImages/bulb.png";
+import arrow from "/src/assets/backgroundImages/arrow.png";
 import { FaRegClock } from "react-icons/fa";
 import { FaVideo } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
@@ -61,11 +63,11 @@ function TrackSection() {
   return (
     <section id="courses" className="my-10 relative">
       <img
-        src="./src/assets/backgroundImages/bulb.png"
+        src={bulb}
         className="h-16 sm:h-20 absolute -top-3 left-4 sm:left-10"
       />
       <img
-        src="./src/assets/backgroundImages/arrow.png"
+        src={arrow}
         className="h-16 sm:h-20 absolute top-0 right-5 sm:right-10 rotate-12"
       />
       <div className="text-center">
