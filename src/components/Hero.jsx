@@ -58,7 +58,7 @@ function Hero() {
           Elearn is a global training provider based across the UK that
           specialises in accredited and bespoke training courses.
         </p>
-        <div className="mt-6 flex items-center bg-white p-2 rounded-full shadow-md ">
+        <div className="mt-6 flex items-center bg-white p-2 rounded-full shadow-md max-w-sm">
           <FaSearch className="text-gray-500 ml-3" />
           <input
             type="text"
