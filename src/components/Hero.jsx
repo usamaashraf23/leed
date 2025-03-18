@@ -29,12 +29,12 @@ function Hero() {
       <img
         src={vaccumIcon}
         alt=""
-        className="w-10 sm:w-16 absolute left-1 sm:left-20 bottom-60 sm:bottom-12"
+        className="w-10 sm:w-12 absolute left-1 sm:left-20 bottom-60 sm:bottom-12"
       />
       <img
         src={triangleIcon}
         alt=""
-        className=" sm:block w-12 sm:w-20 absolute left-1 sm:left-80 bottom-24 sm:bottom-16"
+        className=" sm:block w-12 sm:w-16 absolute left-1 sm:left-80 bottom-24 sm:bottom-12"
       />
       <img
         src={scaleIcon}
