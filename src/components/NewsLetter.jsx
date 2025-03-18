@@ -7,7 +7,7 @@ function NewsLetter() {
       className="relative bg-[#4D2C5E] text-white px-10 py-20 my-10 rounded-none sm:rounded-2xl w-full max-w-5xl mx-auto shadow-lg overflow-hidden"
     >
       <div className="absolute top-0 left-0 w-20 h-20 sm:w-32 sm:h-32 border-2 border-white  rounded-full "></div>
-      <div className="absolute sm:top-20 top-10 w-20 h-20 sm:left-20 sm:w-32 sm:h-32 border-2 border-white  rounded-full"></div>
+      <div className="absolute sm:top-20 top-10 left-10 w-20 h-20  sm:w-32 sm:h-32 border-2 border-white  rounded-full"></div>
       <div className="absolute top-0 right-0 w-20 h-20 sm:w-32 sm:h-32 border-2 border-white  rounded-full"></div>
       <div className="absolute sm:top-20 top-10 right-10 w-20 h-20 sm:w-32 sm:h-32 border-2 border-white  rounded-full"></div>
       <img
