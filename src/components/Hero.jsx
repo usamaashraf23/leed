@@ -22,12 +22,12 @@ function Hero() {
       <img
         src="./src/assets/backgroundImages/vaccum.png"
         alt=""
-        className="w-10 sm:w-16 absolute left-1 sm:left-20 bottom-60 sm:bottom-16"
+        className="w-10 sm:w-16 absolute left-1 sm:left-20 bottom-60 sm:bottom-12"
       />
       <img
         src="./src/assets/backgroundImages/triangle.png"
         alt=""
-        className=" sm:block w-12 sm:w-20 absolute left-1 sm:left-80 bottom-24 sm:bottom-20"
+        className=" sm:block w-12 sm:w-20 absolute left-1 sm:left-80 bottom-24 sm:bottom-16"
       />
       <img
         src="./src/assets/backgroundImages/scale.png"
@@ -47,7 +47,7 @@ function Hero() {
 
       {/* Hero Content */}
       <div className="max-w-lg">
-        <h1 className="text-4xl font-bold text-gray-800">
+        <h1 className="text-3xl sm:text-5xl font-bold text-gray-800 leading-tight">
           The{" "}
           <span className="text-orange-500">
             Smart <br />
@@ -58,12 +58,12 @@ function Hero() {
           Elearn is a global training provider based across the UK that
           specialises in accredited and bespoke training courses.
         </p>
-        <div className="mt-6 flex items-center bg-white p-2 rounded-full shadow-md max-w-sm">
+        <div className="mt-6 flex items-center bg-white p-2 rounded-full shadow-md w-full max-w-sm">
           <FaSearch className="text-gray-500 ml-3" />
           <input
             type="text"
             placeholder="Search for a location..."
-            className="flex-grow px-4 py-2 outline-none text-gray-700"
+            className="flex-grow px-4 py-2 outline-none text-gray-700 w-full"
           />
           <button className="bg-[#4D2C5E] text-white px-6 py-2 rounded-full hover:bg-purple-800 transition">
             Continue
