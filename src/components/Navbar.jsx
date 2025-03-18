@@ -19,7 +19,7 @@ function Navbar() {
           <HashLink
             spy={true}
             smooth={true}
-            to="#about"
+            to="#aboutUs"
             onClick={() => setOpen(false)}
           >
             <li className="py-3 border-b-2 text-xl">About Us</li>
@@ -27,7 +27,7 @@ function Navbar() {
           <HashLink
             spy={true}
             smooth={true}
-            to="#projects"
+            to="#courses"
             onClick={() => setOpen(false)}
           >
             <li className="py-3 border-b-2 text-xl">Courses</li>
@@ -35,7 +35,7 @@ function Navbar() {
           <HashLink
             spy={true}
             smooth={true}
-            to="#projects"
+            to="#service"
             onClick={() => setOpen(false)}
           >
             <li className="py-3 border-b-2 text-xl">Our Service</li>
@@ -43,7 +43,7 @@ function Navbar() {
           <HashLink
             spy={true}
             smooth={true}
-            to="#projects"
+            to="#contact"
             onClick={() => setOpen(false)}
           >
             <li className="py-3 border-b-2 text-xl">Contact Us</li>

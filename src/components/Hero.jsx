@@ -3,7 +3,10 @@ import { FaSearch } from "react-icons/fa";
 import heroImg from "/src/assets/heroImg.png";
 function Hero() {
   return (
-    <section className="bg-[#FDF8EE] py-16 sm:px-20 px-8 flex flex-col md:flex-row items-center justify-between">
+    <section
+      id="home"
+      className="bg-[#FDF8EE] py-16 sm:px-20 px-8 flex flex-col md:flex-row items-center justify-between"
+    >
       <div className="max-w-lg">
         <h1 className="text-4xl font-bold text-gray-800">
           The{" "}

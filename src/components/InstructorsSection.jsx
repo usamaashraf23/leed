@@ -35,7 +35,7 @@ function InstructorsSection() {
     },
   ];
   return (
-    <section className="my-10">
+    <section id="service" className="my-10">
       <div className="text-center">
         <h1 className="text-4xl font-bold">Our Tracks</h1>
         <span className="text-sm py-4 text-gray-600">
