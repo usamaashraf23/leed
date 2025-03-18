@@ -63,7 +63,7 @@ function Navbar() {
     <BrowserRouter>
       <nav className="bg-[#FDF8EE] hidden sm:flex items-center justify-between px-8 py-4 sticky top-0 z-50 ">
         <div className="flex items-center">
-          <img src={logoImg} alt="Book Store Logo" className="h-16 w-44 mr-2" />
+          <img src={logoImg} alt="Book Store Logo" className="h-12 w-32 mr-2" />
         </div>
         <ul className="sm:flex  space-x-6 font-bold ">
           <HashLink spy={true} smooth={true} to="#home">
