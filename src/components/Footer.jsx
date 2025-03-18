@@ -81,7 +81,7 @@ function Footer() {
         </div>
       </div>
       <hr />
-      {/* Footer Bottom Text */}
+      {/* Footer Text */}
       <div className="mt-8 text-center text-sm text-gray-500">
         BookStore All Right Reserved, 2025
       </div>

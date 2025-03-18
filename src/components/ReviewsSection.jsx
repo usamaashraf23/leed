@@ -2,6 +2,8 @@ import React from "react";
 import user1 from "/src/assets/reviewImages/user1.png";
 import user2 from "/src/assets/reviewImages/user2.png";
 import user3 from "/src/assets/reviewImages/user3.png";
+import shadow from "/src/assets/backgroundImages/shadow.png";
+import shadow2 from "/src/assets/backgroundImages/shadow2.png";
 function ReviewsSection() {
   let reviewCard = [
     {
@@ -27,14 +29,19 @@ function ReviewsSection() {
     },
   ];
   return (
-    <section className="my-10">
+    <section className="my-16 relative">
+      <img src={shadow} className="absolute w-40 sm:w-96 -bottom-60" />
+      <img
+        src={shadow2}
+        className="absolute w-40 sm:w-96 right-1 -bottom-60  "
+      />
       <div className="text-center space-y-2">
         <h1 className="text-4xl font-bold">What Student's Say</h1>
         <span className="text-sm text-slate-600">
           Lorem Ipsum is simply dummy text of the printing.
         </span>
       </div>
-      <div className="flex flex-col md:flex-row gap-10 px-20 py-10">
+      <div className="flex flex-col md:flex-row gap-10 px-10 sm:px-32 py-10 justify-center items-center">
         {reviewCard.map((review, index) => (
           <div className="shadow-2xl px-10 py-4" key={index}>
             <p>''{review.review}''</p>

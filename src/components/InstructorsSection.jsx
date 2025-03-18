@@ -40,7 +40,7 @@ function InstructorsSection() {
     <section id="service" className="my-10 relative">
       <img
         src={arrow}
-        className="h-16 sm:h-20 absolute top-0 left-4 sm:left-10"
+        className="h-16 sm:h-28 absolute top-0 sm:-top-10 left-4 sm:left-10"
       />
       <img
         src={planet}
