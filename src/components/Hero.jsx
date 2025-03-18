@@ -15,7 +15,7 @@ function Hero() {
       id="home"
       className="bg-[#FDF8EE] py-16 sm:px-20 px-8 flex flex-col md:flex-row items-center justify-between relative"
     >
-      {/* Background Images - Now Responsive */}
+      {/* Background Images*/}
       <img
         src={reactIcon}
         alt=""
@@ -82,7 +82,7 @@ function Hero() {
       <div className="mt-10 md:mt-0 md:w-1/2 flex justify-center">
         <img
           src={heroImg}
-          alt="E-learning Illustration"
+          alt="learning Picture"
           className="max-w-full h-auto"
         />
       </div>
