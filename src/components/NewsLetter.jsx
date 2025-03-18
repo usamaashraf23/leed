@@ -16,7 +16,9 @@ function NewsLetter() {
         className="absolute sm:bottom-4 bottom-0.5 sm:right-10 right-1  sm:h-24 h-20"
       />
       <div className="text-center">
-        <h2 className="text-2xl font-semibold">Subscribe to our newsletter</h2>
+        <h2 className="sm:text-4xl text-2xl font-semibold">
+          Subscribe to our newsletter
+        </h2>
         <p className="text-sm text-gray-300 mt-2">
           Lorem Ipsum is simply dummy text of the printing.
         </p>

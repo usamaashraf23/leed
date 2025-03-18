@@ -9,7 +9,7 @@ function Footer() {
           <div className="flex items-center space-x-2">
             <img src={logoImg} alt="Book Store Logo" className="h-14" />
           </div>
-          <p className="mt-3 text-sm text-gray-600 max-w-sm">
+          <p className="mt-3 text-sm text-gray-600 w-[250px] leading-4 ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy a type
             specimen book.

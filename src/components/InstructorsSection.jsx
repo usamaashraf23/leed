@@ -17,7 +17,7 @@ function InstructorsSection() {
     },
     {
       instructorImgae: <img src={instructor2} className="rounded-xl" />,
-      name: "Matthew E. McNatt",
+      name: "Tracy D. Wright",
       designation: "Professor",
       college: "George Brown College",
       description:
@@ -26,7 +26,7 @@ function InstructorsSection() {
     },
     {
       instructorImgae: <img src={instructor3} className="rounded-xl" />,
-      name: "Matthew E. McNatt",
+      name: "Cynthia A. Nelson",
       designation: "Professor",
       college: "George Brown College",
       description:
