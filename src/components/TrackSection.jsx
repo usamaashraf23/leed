@@ -59,7 +59,15 @@ function TrackSection() {
     },
   ];
   return (
-    <section id="courses" className="my-10">
+    <section id="courses" className="my-10 relative">
+      <img
+        src="./src/assets/backgroundImages/bulb.png"
+        className="h-16 sm:h-20 absolute -top-3 left-4 sm:left-10"
+      />
+      <img
+        src="./src/assets/backgroundImages/arrow.png"
+        className="h-16 sm:h-20 absolute top-0 right-5 sm:right-10 rotate-12"
+      />
       <div className="text-center">
         <h1 className="text-4xl font-bold">Our Tracks</h1>
         <span className="text-sm py-4 text-gray-600">

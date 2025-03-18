@@ -35,7 +35,15 @@ function InstructorsSection() {
     },
   ];
   return (
-    <section id="service" className="my-10">
+    <section id="service" className="my-10 relative">
+      <img
+        src="./src/assets/backgroundImages/arrow2.png"
+        className="h-16 sm:h-20 absolute top-0 left-4 sm:left-10"
+      />
+      <img
+        src="./src/assets/backgroundImages/planet.png"
+        className="h-10 sm:h-14 absolute top-0 right-4 sm:right-10 "
+      />
       <div className="text-center">
         <h1 className="text-4xl font-bold">Our Tracks</h1>
         <span className="text-sm py-4 text-gray-600">

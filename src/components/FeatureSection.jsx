@@ -27,7 +27,7 @@ function FeatureSection() {
   return (
     <section
       id="aboutUs"
-      className="bg-[#4D2C5E] text-white py-12 px-8 mt-[-50px] rounded-none sm:rounded-lg mx-auto max-w-5xl  flex flex-col md:flex-row items-center justify-between"
+      className="bg-[#4D2C5E] text-white py-12 px-8 mt-[-40px] rounded-none sm:rounded-lg mx-auto max-w-5xl  flex flex-col md:flex-row items-center justify-between relative"
     >
       {features.map((feature, index) => (
         <div
