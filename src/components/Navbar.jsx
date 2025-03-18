@@ -61,16 +61,28 @@ function Navbar() {
   }
   return (
     <BrowserRouter>
-      <nav className="bg-[#FDF8EE] hidden sm:flex items-center justify-between px-8 py-4 ">
+      <nav className="bg-[#FDF8EE] hidden sm:flex items-center justify-between px-8 py-4 sticky top-0 z-50 ">
         <div className="flex items-center">
           <img src={logoImg} alt="Book Store Logo" className="h-16 w-44 mr-2" />
         </div>
         <ul className="sm:flex  space-x-6 font-bold ">
-          <li className="hover:text-purple-600 cursor-pointer font">Home</li>
-          <li className="hover:text-purple-600 cursor-pointer">About us</li>
-          <li className="hover:text-purple-600 cursor-pointer">Courses</li>
-          <li className="hover:text-purple-600 cursor-pointer">Our Service</li>
-          <li className="hover:text-purple-600 cursor-pointer">Contact us</li>
+          <HashLink spy={true} smooth={true} to="#home">
+            <li className="hover:text-purple-600 cursor-pointer font">Home</li>
+          </HashLink>
+          <HashLink spy={true} smooth={true} to="#aboutUs">
+            <li className="hover:text-purple-600 cursor-pointer">About us</li>
+          </HashLink>
+          <HashLink spy={true} smooth={true} to="#courses">
+            <li className="hover:text-purple-600 cursor-pointer">Courses</li>
+          </HashLink>
+          <HashLink spy={true} smooth={true} to="#contact">
+            <li className="hover:text-purple-600 cursor-pointer">
+              Our Service
+            </li>
+          </HashLink>
+          <HashLink spy={true} smooth={true} to="#contact">
+            <li className="hover:text-purple-600 cursor-pointer">Contact us</li>
+          </HashLink>
         </ul>
         <button className="bg-[#4D2C5E] text-white font-semibold cursor-pointer px-8 py-2 rounded-full hover:bg-purple-700 transition">
           Sign in
